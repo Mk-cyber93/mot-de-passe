@@ -12,8 +12,10 @@ while essais > 0:
        if changé == "oui":
             mot_de_passe = input("Nouveau mot de passe : ")
             print("Mot de passe changé !")
+            print("Accès autorisé")
             break 
        if changé == "non": 
+          print("Accès autorisé")
           break    
        elif essais ==0:
             print("Accès bloqué")
